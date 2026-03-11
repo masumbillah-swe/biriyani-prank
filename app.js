@@ -7,7 +7,7 @@ let prankCount = 0;
 app.get('/', (req, res) => {
     res.send(`
         <div style="text-align:center; padding-top:80px; font-family:sans-serif; background: #fff5f5; height:100vh; margin:0;">
-            <h1 style="color: #e67e22; font-size: 40px;">🍗 বিরিয়ানি প্র্যাঙ্ক V2.0</h1>
+            <h1 style="color: #e67e22; font-size: 40px;">🍗 বিরিয়ানি প্র্যাঙ্ক</h1>
             <p>এখন পর্যন্ত ধরা খেয়েছে: <b style="color:red;">${prankCount}</b> জন!</p>
             <form action="/make-link" style="margin-top: 20px;">
                 <input type="text" name="fname" placeholder="বন্ধুর নাম" required 
